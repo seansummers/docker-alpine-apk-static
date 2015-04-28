@@ -1,5 +1,5 @@
 SEED = http://dl-2.alpinelinux.org/alpine
-VERSION = v3.1
+VERSION = v3.2
 ARCH = x86_64
 
 CURL = curl -sL
