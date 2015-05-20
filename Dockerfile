@@ -1,5 +1,7 @@
 FROM scratch
 MAINTAINER seansummers@gmail.com
-ADD repositories /etc/apk/
 ADD sbin/apk.static /sbin/
-RUN [ "/sbin/apk.static", "-U", "--allow-untrusted", "add", "--initdb", "apk-tools-static", "alpine-keys" ]
+#ADD etc/apk/repositories /etc/apk/
+RUN [ "/sbin/apk.static", "--allow-untrusted", "-U", "-X", "http://dl-3.alpinelinux.org/alpine/v3.2/main", \
+      "add", "--initdb", "-u", \
+      "alpine-keys" ]
