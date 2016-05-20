@@ -12,6 +12,7 @@ alpine-baselayout, or alpine-base if you want a shell
 (in order of size).
 
 | Date | Size | version
+| --- | --- | ---: 
 | 2016-05-20 | 2.805 MB | 3.4
 | 2015-08-10 | 2.838 MB 
 | 2015-05-19 | 8.895 MB
