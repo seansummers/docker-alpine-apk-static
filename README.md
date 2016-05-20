@@ -11,7 +11,9 @@ You will have to install busybox-static, busybox,
 alpine-baselayout, or alpine-base if you want a shell
 (in order of size).
 
-As of 2015-08-10, this image is 2.838 MB.
-As of 2015-05-19, this image is 8.895 MB.
+| Date | Size | version
+| 2016-05-20 | 2.805 MB | 3.4
+| 2015-08-10 | 2.838 MB 
+| 2015-05-19 | 8.895 MB
 
 https://hub.docker.com/r/seansummers/alpine-apk-static/
