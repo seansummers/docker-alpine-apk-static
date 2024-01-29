@@ -38,4 +38,5 @@ command line to install anything:
 | 2015-05-19 |  8.895 MB
 
 https://hub.docker.com/r/seansummers/alpine-apk-static/
+https://quay.io/repository/seansummers/alpine-apk-static
 
